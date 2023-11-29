@@ -3,6 +3,7 @@ About r-rrum-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rrum-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rrum
 ------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=rrum
 Package license: GPL-2.0-or-later
 
 Summary: Implementation of Gibbs sampling algorithm for Bayesian Estimation of the Reduced Reparameterized Unified Model ('rrum'), described by Culpepper and Hudson (2017) <doi: 10.1177/0146621617707511>.
+
 About r-rrum
 ------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
