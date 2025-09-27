@@ -1,4 +1,4 @@
-{% set version = '0.2.0' %}
+{% set version = "0.2.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rrum_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rrum/rrum_{{ version }}.tar.gz
-  sha256: a73e6e2375a0fce1b7ed17f650fb91a8c1b705461e6d634f474bb84882150e70
+  sha256: a1856ae33717dbf340b7d20e78c00ef16241f7e8236539cf98e51116a0237e60
 
 build:
-  number: 4
+  number: 0
 
   rpaths:
     - lib/R/lib/
@@ -58,9 +58,7 @@ test:
 about:
   home: https://CRAN.R-project.org/package=rrum
   license: GPL-2.0-or-later
-  summary: 'Implementation of Gibbs sampling algorithm for Bayesian Estimation of the Reduced
-    Reparameterized Unified Model (''rrum''), described by Culpepper and Hudson (2017)
-    <doi: 10.1177/0146621617707511>.'
+  summary: 'Implementation of Gibbs sampling algorithm for Bayesian Estimation of the Reduced Reparameterized Unified Model (''rrum''), described by Culpepper and Hudson (2017) <doi: 10.1177/0146621617707511>.'
 
   license_family: GPL2
   license_file:
